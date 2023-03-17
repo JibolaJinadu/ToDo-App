@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>To-do-List-App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="container">
+        
+        <h1>To-Do-List Today</h1>
+
+        <form id="todo-form">
+          <input
+            type="text"
+            name="task-name"
+            placeholder="e.g buy grocery"
+            autofocus
+          />
+          <button type="submit" id="add">Add task</button>
+        </form>
+      </div>
+
+      <section>
+        <div class="container2" id="main-content">
+          <ul class="stats">
+            <li>
+              <span>Outstanding:</span>
+              <span id="remaining-tasks">0</span>
+            </li>
+
+            <li>
+              <span>Completed:</span>
+              <span id="completed-tasks">0</span>
+            </li>
+
+            <li>
+              <span>Total:</span>
+              <span id="total-tasks">0</span>
+            </li>
+          </ul>
+
+          <ul class="todos">
+            
+          </ul>
+        </div>
+      </section>
+    </header>
+    <section class="footer">
+        <p>Each day i will accomplish all things on my to do list...</p>
+    </section>
+  </body>
+  <script src="index.js"></script>
+</html>
